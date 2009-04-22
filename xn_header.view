@@ -1,0 +1,7 @@
+<div style="float:right;">
+<br />
+<b><a href="APIs.php">APIs</a></b>
+</div>
+
+<h1><a href="http://someblogs.ning.com/"><c:out value="${application}" /></a></h1>
+<i>Indexing personal blogs, sexblogs, yesterday-I-licked-the-flagpole blogs...</i>

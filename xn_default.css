@@ -1,0 +1,99 @@
+#userHeader {
+    margin: 10px 20px 0 20px;
+}
+
+#userContent div {
+    margin: 10px 20px 0 20px;
+    padding: 10px;
+    background: #cde6c0;
+}
+
+#userContent h3 {
+    margin: 0;
+    font: 28px Georgia, "Times New Roman", Times, serif;
+    color: #333;
+}
+
+#userContent p {
+    margin: 0;
+    font: 16px Georgia, "Times New Roman", Times, serif;
+}
+
+#userContent p img#editFile {
+    float: right;
+}
+
+#userContent dt,
+#userContent dt a {
+    font-weight: bold !important;
+}
+#userContent dd {
+    margin: 0;
+}
+
+#userContent form {
+    margin: 2em 0;
+    padding: 12px 12px 8px 12px;
+    border: 1px solid #ccc;
+    background: url("http://group.ning.com/images/css/form.gif") repeat-x left top;
+    width: 455px;
+}
+#userContent form h3 {
+    height: auto;
+    margin-top: 0;
+    background: none;
+    font-weight: bold;
+    color: #c33;
+}
+#userContent form p.align-right {
+    margin: 0.2em 0;
+}
+#userContent fieldset {
+    margin: 1em 0 0.5em 0;
+    padding: 0 0 0.5em 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+}
+#userContent fieldset h4 {
+    padding: 0;
+    border: 0;
+}
+#userContent fieldset dl {
+    margin: 0;
+    padding: 0.5em 0;
+}
+#userContent fieldset dt {
+    float: left;
+    clear: left;
+    width: 180px;
+    margin: 0;
+    padding-bottom: 5px;
+    line-height: 1.4em;
+    padding-right: 5px;
+    text-align: right;
+    color: #666;
+}
+#userContent fieldset dd {
+    clear: right;
+    margin: 0;
+    padding: 0 0 5px 165px;
+    line-height: 1.4em;
+}
+#userContent fieldset dd.note {
+    margin-bottom: 0.8em;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+#userContent {
+   margin-left: 20px;
+}
+
+/* Remove the sidebar [Jon Aquino 2006-06-16] */
+html#xn #xn_app #xn_app_body {
+    margin-right:10px !important;
+}
+/* But not on the search page (UAPPS-77)  [Jon Aquino 
+2006-06-22] */ html#xn #xn_app.merchandise #xn_app_body {
+    margin-right:250px !important;
+}
